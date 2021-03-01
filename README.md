@@ -2,7 +2,7 @@
 first markov project for CC
 
 
-This system is called the Markov Cat Rainbow Generator. The program can be run with no system arguments on the command line. That being said, in order to change the drawing object to the nyan cat, you must uncomment lines 22-24, and replace line 22 with your absolute filepath to this directory. 
+This system is called the Markov Cat Rainbow Generator. The program can be run with no system arguments on the command line. That being said, in order to change the drawing object to the nyan cat, you must uncomment the two lines 30 and 31, and replace the my_filepath in line 29 line with your absolute filepath to this directory. 
 
 This program uses turtle and the markov property to generate rainbow line art. The attributes direction, color, and pensize are determined by first order markov chains. Direction can only turn 90 degrees at once, color can only progress through the rainbow, and pensize can only change by one size level. The exact probabilities for these attributes can be found in the relative transition matricies. 
 
