@@ -17,9 +17,12 @@ turtle.hideturtle()
 
 #set turtle to nyan cat
 #had trouble with relative filepaths, so next 3 lines can be commented out or modified with correct path. 
+
+
 #MY_FILEPATH = "C:/Users/User/Desktop/CC/Markov1" #replace with your filepath
 #turtle.register_shape(MY_FILEPATH + "/assets/nyan.gif")
 #t.shape(MY_FILEPATH + "/assets/nyan.gif")
+
 
 initial_direction = [.25, .25, .25, .25] #initial direction probability
 directions = [90, 0, 270, 180]
