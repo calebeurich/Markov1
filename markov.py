@@ -77,7 +77,7 @@ def pick_attribute(attributes, matrix):
     return new_attribute
 
 '''
- that returns initial attributes based off of initial propabilities
+function that returns initial attributes based off of initial propabilities
 @return array: an array of the first chosen direction, color, and size
 '''
 def markov_start():
