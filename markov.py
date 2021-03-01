@@ -12,7 +12,14 @@ s = turtle.getscreen()
 t = turtle.Turtle()
 turtle.screensize(canvwidth=500, canvheight=500)
 t.speed(10)
+t.hideturtle()
+turtle.hideturtle()
 
+#set turtle to nyan cat
+#had trouble with relative filepaths, so next 3 lines can be commented out or modified with correct path. 
+#MY_FILEPATH = "C:/Users/User/Desktop/CC/Markov1" #replace with your filepath
+#turtle.register_shape(MY_FILEPATH + "/assets/nyan.gif")
+#t.shape(MY_FILEPATH + "/assets/nyan.gif")
 
 initial_direction = [.25, .25, .25, .25] #initial direction probability
 directions = [90, 0, 270, 180]
@@ -86,6 +93,10 @@ def main():
         new_values = markov_continue(previous_values[0], previous_values[1], previous_values[2])
         move(new_values[0], new_values[1], new_values[2])
         previous_values = new_values #set the next set of previous values to the values that were just used
+    t.hideturtle()
+    turtle.hideturtle()
+    turtle.exitonclick()
+    
 
 if __name__ == "__main__": 
     main() 
